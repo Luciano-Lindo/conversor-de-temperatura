@@ -1,0 +1,78 @@
+h2{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.input_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top:1em;
+    border-radius: 2em;
+    font-family: sans-serif;
+}
+input{
+    height: 1em;
+}
+.container{
+    display : inline-flex;
+    flex-direction: column;
+    background-color: #442F47;
+    align-items: center;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 3.5px 3.5px 40px black;
+}
+.area{
+    display:flex;
+    justify-content: center;
+    margin-top: 12.5em;
+    
+}
+button{
+    margin-top: 1.5em;
+    height: 3em;
+    width: 100%;
+    border-radius: 1em;
+    background-color: #74517A;
+    border: none;
+    color: #ffffff; 
+}
+#temp{
+    border-radius:1em;
+    height: 3em;
+    padding-left: 1em;
+    padding-right: 2em;
+    border: none;
+    background-color:#BF85C9;
+}
+#resultado{
+    border-radius: 1em;
+    height: 3em;
+    padding-left: 1em;
+    padding-right: 2em;
+    border: none;
+    background-color: #BF85C9;
+}
+#medida1{
+    border-radius: 1em;
+    height:3em;
+    border: none;
+    justify-content: left;
+    background-color: #BF85C9;
+    color: #ffffff;
+}
+#medida2{
+    border-radius: 1em;
+    height: 3em;
+    border: none;
+    background-color:#BF85C9;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+    font-family: sans-serif;
+}
+body{
+    background-color:#442F47;
+}
